@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biizi art | Annette Udoh</title>
+    <link href="https://fonts.googleapis.com/css252?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d0d0d;
+            --card-bg: #161616;
+            --text: #f5f5f5;
+            --text-muted: #a3a3a3;
+            --accent: #d4af37; /* Warm Gold */
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0; left: 0; width: 100%;
+            background: rgba(13, 13, 13, 0.9);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 5%;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+        .logo { font-size: 1.4rem; font-weight: 600; letter-spacing: 2px; color: var(--text); text-decoration: none; }
+        .logo span { color: var(--accent); }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: var(--text-muted); text-decoration: none; font-size: 0.9rem; transition: var(--transition); }
+        .nav-links a:hover { color: var(--accent); }
+
+        /* Hero Section */
+        header.hero {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 1rem;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+        }
+        header.hero h1 { font-size: clamp(2.5rem, 6vw, 5rem); margin-bottom: 1rem; font-weight: 400; }
+        header.hero p { font-size: 1.1rem; color: var(--text-muted); max-width: 600px; margin-bottom: 2rem; }
+        .btn {
+            background: var(--accent);
+            color: #000;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 1px;
+            transition: var(--transition);
+        }
+        .btn:hover { background: #fff; transform: translateY(-2px); }
+
+        /* Container */
+        .container { max-width: 1200px; margin: 0 auto; padding: 6rem 2rem; }
+
+        /* About / Story Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        .about-img img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 4px;
+            filter: grayscale(20%);
+        }
+        .section-title { font-size: 2.2rem; margin-bottom: 1.5rem; color: var(--text); }
+        .text-block { margin-bottom: 1.5rem; color: var(--text-muted); font-size: 1rem; }
+
+        /* Exhibition Banner */
+        .exhibition-section {
+            background: var(--card-bg);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 8px;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin: 4rem 0;
+        }
+        .exhibition-section h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+        .exhibition-section p { color: var(--text-muted); max-width: 700px; margin: 0 auto 2rem auto; }
+
+        /* Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 4px;
+            background: var(--card-bg);
+            height: 400px;
+        }
+        .gallery-item img {
+            width: 100%; height: 100%; object-fit: cover;
+            transition: var(--transition);
+        }
+        .gallery-item:hover img { transform: scale(1.03); }
+        .gallery-caption {
+            position: absolute;
+            bottom: 0; left: 0; width: 100%;
+            padding: 1.5rem;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            font-size: 0.95rem;
+        }
+
+        /* Contact Section */
+        .contact-box {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-info {
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin: 1rem 0;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        @media(max-width: 768px) {
+            .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">BIIZI <span>ART</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#catalogue">Catalogue</a></li>
+            <li><a href="#exhibition">Exhibition</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="hero">
+        <h1 class="serif">Annette Udoh</h1>
+        <p>Contemporary Artist & Illustrator based in Lagos, Nigeria</p>
+        <a href="#catalogue" class="btn">Explore Works</a>
+    </header>
+
+    <!-- About & Statement Section -->
+    <section id="about" class="container">
+        <div class="about-grid">
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80" alt="Annette Udoh - biizi art">
+            </div>
+            <div>
+                <h2 class="section-title">The Artist & Her Story</h2>
+                <p class="text-block">Born in Akwa Ibom State and based in the vibrant cultural heart of Lagos, Annette Udoh—known professionally as <strong>biizi art</strong>—is a self-taught multidisciplinary artist. Taught by God and inspired early on by watching her older sister draw, Annette bridges classical technique with contemporary expression.</p>
+                <p class="text-block">Working across oils, acrylics on canvas, watercolors, and fashion illustrations, her work celebrates nature, everyday lifestyle, and the profound depth of female human faces. Painting remains her meditative anchor—bringing emotional balance, capturing raw energy, and leaving indelible memories glued to the minds of her viewers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Exhibition Section -->
+    <section id="exhibition" class="container">
+        <div class="exhibition-section">
+            <h2 class="serif">Upcoming Art Exhibition</h2>
+            <p>Join us for an exclusive showcase of new collections exploring beauty, energy, and soulful storytelling by biizi art. Secure your spot by registering below.</p>
+            <!-- Replace the href '#' below with your actual Google Form link -->
+            <a href="YOUR_GOOGLE_FORM_LINK_HERE" target="_blank" class="btn">Register for Exhibition</a>
+        </div>
+    </section>
+
+    <!-- Digital Catalogue -->
+    <section id="catalogue" class="container">
+        <h2 class="section-title" style="text-align: center;">Selected Works</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80" alt="Artwork 1">
+                <div class="gallery-caption">Essence of Lagos (Acrylic on Canvas)</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1582561214197-c81440243477?auto=format&fit=crop&w=800&q=80" alt="Artwork 2">
+                <div class="gallery-caption">Silent Symphony (Oil on Canvas)</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=800&q=80" alt="Artwork 3">
+                <div class="gallery-caption">Fashion Editorial Illustration</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="contact-box">
+            <h2 class="section-title">Inquiries & Commissions</h2>
+            <p class="text-block">For art purchases, gallery inquiries, or custom commission requests, please reach out directly:</p>
+            <a href="mailto:annette@biiziart.com" class="contact-info">annette@biiziart.com</a>
+            <p style="margin-top: 0.5rem; color: var(--text-muted);">Lagos, Nigeria</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 biizi art (Annette Udoh). All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
