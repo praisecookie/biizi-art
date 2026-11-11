@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>biizi art | Annette Udoh, Painter in Lagos</title>
-<meta name="description" content="Annette Udoh (biizi art) is a self-taught painter in Lagos working in oil, acrylic, watercolour and digital. See her work and register for her upcoming exhibition.">
+<title>Annette Udoh | Painter in Lagos</title>
+<meta name="description" content="Annette Udoh is a self-taught painter in Lagos working in oil, acrylic, watercolour and digital. See her work and register for her upcoming exhibition.">
 <meta name="theme-color" content="#0d0d0d">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,9 +30,10 @@ h2.title{font-size:clamp(2.2rem,6vw,3.6rem);margin-bottom:1.25rem}
 .lead{color:var(--muted);max-width:60ch}
 
 /* Nav */
-nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:calc(.9rem + env(safe-area-inset-top)) 1.25rem .9rem;background:rgba(13,13,13,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.logo{display:block;line-height:0}
-.logo img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:calc(.9rem + env(safe-area-inset-top)) 1.25rem .9rem;border-bottom:1px solid var(--line)}
+nav::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(13,13,13,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.logo{font-family:var(--serif);font-size:1.7rem;font-weight:500;text-decoration:none;letter-spacing:.02em}
+.logo em{font-style:italic;color:var(--gold)}
 .menu-btn{background:none;border:1px solid var(--line);color:var(--text);width:44px;height:44px;border-radius:50%;cursor:pointer;display:grid;place-items:center}
 .menu-btn span,.menu-btn span::before,.menu-btn span::after{display:block;width:18px;height:2px;background:var(--gold);position:relative;transition:.3s var(--ease)}
 .menu-btn span::before,.menu-btn span::after{content:"";position:absolute;left:0}
@@ -162,7 +163,7 @@ footer{text-align:center;padding:2.5rem 1rem calc(2.5rem + env(safe-area-inset-b
 
 <nav>
   <!-- REPLACE with her logo link (1:1 image) -->
-  <a href="#top" class="logo" aria-label="biizi art, back to top"><img src="https://res.cloudinary.com/dzneyqbo9/image/upload/v1793214611/biiziart_o9j5f2o9j5f2o9j5_jhpdte.jpg" alt="biizi art logo" width="46" height="46"></a>
+  <a href="#top" class="logo" aria-label="Annette Udoh, back to top">Annette <em>Udoh</em></a>
   <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="links"><span></span></button>
   <ul class="links" id="links">
     <li><a href="#story">Story</a></li>
@@ -177,14 +178,14 @@ footer{text-align:center;padding:2.5rem 1rem calc(2.5rem + env(safe-area-inset-b
   <div class="hero-in">
     <div>
       <h1>Annette<br><em>Udoh</em></h1>
-      <p>Painter and illustrator in Lagos, working as <strong>biizi art</strong>. Faces, feeling and everyday beauty in oil, acrylic, watercolour and digital.</p>
+      <p>A Christian painter in Lagos who expresses God through colour, faces and everyday beauty. Come and see the work, and join her exhibition, <em>The Beauty of Colours</em>.</p>
       <div class="cta">
         <a class="btn" href="#exhibition">Join the exhibition</a>
         <a class="btn ghost" href="#work">See the work</a>
       </div>
     </div>
     <!-- REPLACE with Annette's photo -->
-    <div class="portrait"><img src="https://res.cloudinary.com/dzneyqbo9/image/upload/v1793213385/Gemini_Generated_Image_kc9t0zkc9t0zkc9t_b45dgk.jpg" alt="Portrait of Annette Udoh, biizi art"></div>
+    <div class="portrait"><img src="https://res.cloudinary.com/dzneyqbo9/image/upload/v1793213385/Gemini_Generated_Image_kc9t0zkc9t0zkc9t_b45dgk.jpg" alt="Portrait of Annette Udoh"></div>
   </div>
 </header>
 
@@ -216,7 +217,7 @@ footer{text-align:center;padding:2.5rem 1rem calc(2.5rem + env(safe-area-inset-b
   <div class="wrap">
     <h2 class="title">Artist statement</h2>
     <blockquote>“Every colour I use is my way of expressing God. I paint beauty, joy and even the lonely seasons so that people see Him in them, and if my art moves someone to worship, I have done what I set out to do.”</blockquote>
-    <p class="by">Annette Udoh, biizi art</p>
+    <p class="by">Annette Udoh</p>
     <div class="themes">
       <div class="theme"><h3>What it is about</h3><p>Nature, ordinary life and the many colours of people and seasons: the moments most people walk past.</p></div>
       <div class="theme"><h3>Why she paints</h3><p>To express God through her art, so that people worship just by seeing it. Painting also quiets her mind and keeps her steady.</p></div>
@@ -282,7 +283,7 @@ footer{text-align:center;padding:2.5rem 1rem calc(2.5rem + env(safe-area-inset-b
 </section>
 </main>
 
-<footer>&copy; 2026 biizi art (Annette Udoh). Lagos, Nigeria.</footer>
+<footer>&copy; 2026 Annette Udoh. Lagos, Nigeria.</footer>
 
 <script>
 const btn=document.getElementById('menuBtn'),links=document.getElementById('links');
