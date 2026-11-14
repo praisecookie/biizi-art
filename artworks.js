@@ -31,11 +31,11 @@ const ARTWORKS = {
 
   'AU-2026-002': {
     title: 'The Ballerina',
-    year: '2026',
+    year: '2023',
     medium: 'Oil on canvas',
-    size: '',             // e.g '200x400
+    size: '200 x 400',             // e.g '200x400
     edition: 'Original, one of a kind',
-    sold: '',                       // e.g. '2026-11-15'
+    sold: '2025-11-14',                       // e.g. '2026-11-15'
     summary: 'The Persistence of a Ballerina',
     images: [
       ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1793818078/WhatsApp_Image_2026-11-04_at_7.45.02_pm_kq1aor.jpg', 'Front'],
