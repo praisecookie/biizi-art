@@ -61,7 +61,7 @@ const q = new URLSearchParams(location.search);
 const id = (q.get('id') || location.hash.slice(1) || '').trim().toUpperCase();
 const A = ARTWORKS[id];
 const mail = 'mailto:' + ARTIST.email + '?subject=' + encodeURIComponent('Certificate ' + (id || 'enquiry'));
-const contact = '<div class="cta"><a class="btn" href="' + ARTIST.whatsapp + '" target="_blank" rel="noopener">Message Annette on WhatsApp</a><a class="btn ghost" href="' + mail + '">Send an email</a></div>';
+const contact = '<div class="cta"><a class="btn" href="' + mail + '">Email Annette</a></div>';
 const check = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>';
 const lookup = '<form class="lookup" id="lf"><label for="cn">Certificate number</label><div><input id="cn" placeholder="e.g. AU-2026-001" value="' + esc(id) + '" autocomplete="off" autocapitalize="characters"><button class="btn" type="submit">Verify</button></div></form>';
 
