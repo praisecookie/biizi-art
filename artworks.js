@@ -29,7 +29,7 @@ const ARTWORKS = {
   },
 
 
-  'AU-2026-002': {
+  'AU-2023-002': {
     title: 'The Ballerina',
     year: '2023',
     medium: 'Oil on canvas',
