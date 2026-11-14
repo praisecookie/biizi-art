@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verify an artwork | Annette Udoh</title>
+<meta name="description" content="Verify the authenticity of an original artwork by Annette Udoh using its certificate number.">
+<meta name="theme-color" content="#0d0d0d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0d0d;--card:#1a1a1a;--text:#f5f2ea;--muted:#b0aa9c;--gold:#d4af37;--gold-soft:#e6c964;--line:rgba(212,175,55,.28);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Plus Jakarta Sans',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:radial-gradient(60% 40% at 90% 0%,rgba(212,175,55,.16),transparent 70%),var(--bg);color:var(--text);font-family:var(--sans);line-height:1.7;-webkit-text-size-adjust:100%;overflow-x:hidden;min-height:100vh}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+h1,h2{font-family:var(--serif);font-weight:500;line-height:1.1}
+.top{display:flex;justify-content:space-between;align-items:center;padding:calc(.9rem + env(safe-area-inset-top)) 1.25rem .9rem;border-bottom:1px solid var(--line)}
+.logo{font-family:var(--serif);font-size:1.7rem;text-decoration:none}
+.logo em{font-style:italic;color:var(--gold)}
+.back{font-size:.9rem;color:var(--muted);text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:3rem 1.25rem 4rem}
+h1{font-size:clamp(2.4rem,9vw,4.4rem)}
+h2{font-size:1.7rem;margin-bottom:.6rem}
+.sub,.lead{color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(212,175,55,.14);border:1px solid var(--gold);color:var(--gold-soft);border-radius:999px;padding:.35rem 1rem;font-size:.85rem;font-weight:600;margin-bottom:1rem}
+.badge.bad{border-color:#c99a87;color:#e8b9a5;background:rgba(200,150,130,.1)}
+.grid{display:grid;gap:2rem;margin-top:2rem}
+#big{width:100%;max-height:72vh;object-fit:contain;background:var(--card);border:1px solid var(--line);border-radius:8px;display:block}
+.thumbs{display:flex;gap:.6rem;margin-top:.7rem;flex-wrap:wrap}
+.thumbs button{background:none;border:1px solid var(--line);border-radius:6px;padding:0;cursor:pointer;width:72px;height:72px;overflow:hidden}
+.thumbs button[aria-current="true"]{border-color:var(--gold)}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:.55rem 1.4rem}
+.facts dt{color:var(--gold);font-size:.88rem;align-self:center}
+.facts dd{font-family:var(--serif);font-size:1.35rem;line-height:1.25}
+.box{background:var(--card);border-radius:8px;padding:1.3rem;margin-top:1.4rem}
+.box p,.box li{color:var(--muted);font-size:.97rem}
+.box ol{padding-left:1.2rem;display:grid;gap:.4rem}
+.cta{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem}
+.btn{display:inline-block;background:var(--gold);color:#111;padding:.9rem 1.8rem;border-radius:999px;text-decoration:none;font-weight:600;font-size:.95rem;border:0;cursor:pointer;font-family:inherit}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.lookup{margin-top:2.5rem}
+.lookup label{display:block;color:var(--gold);font-size:.88rem;margin-bottom:.4rem}
+.lookup div{display:flex;gap:.6rem;flex-wrap:wrap}
+.lookup input{flex:1 1 220px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:.9rem 1.3rem;color:var(--text);font:inherit;font-size:1rem}
+footer{text-align:center;padding:2rem 1rem calc(2rem + env(safe-area-inset-bottom));border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+@media(min-width:800px){.grid{grid-template-columns:1fr 1fr;gap:3.5rem;align-items:start}.gal{position:sticky;top:1.5rem}}
+</style>
+</head>
+<body>
+<header class="top"><a class="logo" href="/">Annette <em>Udoh</em></a><a class="back" href="/">Back to website</a></header>
+<main class="wrap" id="app"></main>
+<footer>&copy; 2026 Annette Udoh. Lagos, Nigeria.</footer>
+
+<script src="artworks.js"></script>
+<script>
+const app = document.getElementById('app');
+const q = new URLSearchParams(location.search);
+const id = (q.get('id') || location.hash.slice(1) || '').trim().toUpperCase();
+const A = ARTWORKS[id];
+const mail = 'mailto:' + ARTIST.email + '?subject=' + encodeURIComponent('Certificate ' + (id || 'enquiry'));
+const contact = '<div class="cta"><a class="btn" href="' + ARTIST.whatsapp + '" target="_blank" rel="noopener">Message Annette on WhatsApp</a><a class="btn ghost" href="' + mail + '">Send an email</a></div>';
+const check = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>';
+const lookup = '<form class="lookup" id="lf"><label for="cn">Certificate number</label><div><input id="cn" placeholder="e.g. AU-2026-001" value="' + esc(id) + '" autocomplete="off" autocapitalize="characters"><button class="btn" type="submit">Verify</button></div></form>';
+
+if (!id) {
+  app.innerHTML = '<h1>Verify an artwork</h1><p class="lead" style="max-width:55ch;margin-top:1rem">Every original sold by Annette Udoh comes with a certificate of authenticity. Scan the QR code on your certificate, or type its number below, to see the artwork’s official record.</p>' + lookup;
+} else if (!A) {
+  document.title = 'Certificate not found | Annette Udoh';
+  app.innerHTML = '<p class="badge bad">Not found</p><h1>We couldn’t find that certificate</h1><p class="lead" style="max-width:55ch;margin-top:1rem">There is no record for “<span id="bad"></span>”. Check the number against the one on your certificate and on the back of your artwork, or contact Annette directly.</p>' + contact + lookup;
+  document.getElementById('bad').textContent = id;
+} else {
+  document.title = A.title + ' | Verified artwork | Annette Udoh';
+  const imgs = A.images || [];
+  const rows = [['Artist', ARTIST.name], ['Year', A.year], ['Medium', A.medium], ['Size', A.size], ['Edition', A.edition], ['Date of sale', fmtDate(A.sold)], ['Certificate No.', id]]
+    .filter(r => r[1]).map(r => '<dt>' + r[0] + '</dt><dd>' + esc(r[1]) + '</dd>').join('');
+  const thumbs = imgs.length > 1 ? '<div class="thumbs">' + imgs.map((m, i) => '<button type="button" data-src="' + esc(m[0]) + '" data-alt="' + esc(m[1]) + '" aria-label="' + esc(m[1]) + '"' + (i ? '' : ' aria-current="true"') + '><img src="' + esc(m[0]) + '" alt="' + esc(m[1]) + '" loading="lazy"></button>').join('') + '</div>' : '';
+  app.innerHTML =
+    '<p class="badge">' + check + ' Verified original</p>' +
+    '<h1>' + esc(A.title) + '</h1><p class="sub">by ' + esc(ARTIST.name) + ' &middot; Certificate No. ' + esc(id) + '</p>' +
+    '<div class="grid"><div class="gal">' + (imgs[0] ? '<img id="big" src="' + esc(imgs[0][0]) + '" alt="' + esc(A.title) + ' by ' + esc(ARTIST.name) + '">' : '') + thumbs + '</div>' +
+    '<div><dl class="facts">' + rows + '</dl>' +
+    '<div class="box"><h2>Statement of authenticity</h2><p>This certifies that “' + esc(A.title) + '” is an authentic, original work created by ' + esc(ARTIST.name) + ', as recorded in her register of certified works.</p></div>' +
+    (A.summary ? '<div class="box"><h2>About this piece</h2><p>' + esc(A.summary) + '</p></div>' : '') +
+    '<div class="box"><h2>Check your piece</h2><ol><li>The photos on this page match your painting.</li><li>The certificate number ' + esc(id) + ' appears on the back of your artwork.</li><li>The artist’s signature appears on the work and on your certificate.</li></ol><p style="margin-top:.7rem">If anything does not match, please contact Annette.</p></div>' +
+    '<div class="box"><p>The buyer owns the physical artwork. Copyright and reproduction rights remain with ' + esc(ARTIST.name) + ' unless transferred in writing.</p></div>' +
+    contact + '</div></div>' + lookup;
+}
+
+const lf = document.getElementById('lf');
+if (lf) lf.addEventListener('submit', e => { e.preventDefault(); const v = document.getElementById('cn').value.trim(); if (v) location.search = '?id=' + encodeURIComponent(v); });
+app.addEventListener('click', e => {
+  const t = e.target.closest('[data-src]'); if (!t) return;
+  const big = document.getElementById('big'); big.src = t.dataset.src; big.alt = t.dataset.alt;
+  app.querySelectorAll('.thumbs button').forEach(b => b.removeAttribute('aria-current')); t.setAttribute('aria-current', 'true');
+});
+</script>
+</body>
+</html>
