@@ -15,14 +15,30 @@ const ARTIST = {
 const ARTWORKS = {
   'AU-2026-001': {
     title: 'The Collector',
-    year: '',
+    year: '2026',
     medium: 'Oil on canvas',
-    size: '',
+    size: '',             // e.g '200x400
     edition: 'Original, one of a kind',
     sold: '',                       // e.g. '2026-11-15'
     summary: 'Men of wealth have a lifestyle. They know the real value of art, they observe quietly and purchase them unnoticed.',
     images: [
       ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1793216787/WhatsApp_Image_2026-10-19_at_10.40.30_pm_xgomlb.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1793216919/Screenshot_2026-10-28_at_8.48.05_pm_aumurm.png', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1793216918/Screenshot_2026-10-28_at_8.47.50_pm_w2nc8m.png', 'Sign']
+    ]
+  },
+
+
+  'AU-2026-002': {
+    title: 'The Ballerina',
+    year: '2026',
+    medium: 'Oil on canvas',
+    size: '',             // e.g '200x400
+    edition: 'Original, one of a kind',
+    sold: '',                       // e.g. '2026-11-15'
+    summary: 'The Persistence of a Ballerina',
+    images: [
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1793818078/WhatsApp_Image_2026-11-04_at_7.45.02_pm_kq1aor.jpg', 'Front'],
       ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1793216919/Screenshot_2026-10-28_at_8.48.05_pm_aumurm.png', 'Back'],
       ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1793216918/Screenshot_2026-10-28_at_8.47.50_pm_w2nc8m.png', 'Sign']
     ]
