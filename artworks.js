@@ -22,9 +22,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'I loved to sing, and it had to be at the top of my voice. My mother would chase me out, calling me Tina Turner, and I would head into the bush with the chair she had given me. This is where my inspiration began. It was a beautiful childhood, and part of me would love to go back.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794737110/IMG_9183_t1mouy.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794737115/IMG_9186_j9nrhe.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794737113/IMG_9184_cbdret.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794753604/IMG_9183_dauixk.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794753608/IMG_9186_cuk0zg.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794753607/IMG_9184_vw695p.jpg', 'Sign']
     ]
   },
 
