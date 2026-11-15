@@ -230,7 +230,7 @@ const ARTWORKS = {
 
 
 
-  'AU-2026-14': {
+  'AU-2026-014': {
     title: 'The Collector',
     year: '2026',
     medium: 'Acrylic on canvas',
@@ -247,7 +247,7 @@ const ARTWORKS = {
 
 
 
-  'AU-2026-15': {
+  'AU-2026-015': {
     title: 'Let There Be Light I',
     year: '2026',
     medium: 'Acrylic on canvas',
@@ -264,7 +264,7 @@ const ARTWORKS = {
 
 
 
-  'AU-2026-16': {
+  'AU-2026-016': {
     title: 'Let There Be Light II',
     year: '2026',
     medium: 'Acrylic on canvas',
@@ -281,7 +281,7 @@ const ARTWORKS = {
 
 
 
-  'AU-2026-17': {
+  'AU-2026-017': {
     title: 'Nature',
     year: '2026',
     medium: 'Acrylic on canvas',
@@ -298,7 +298,7 @@ const ARTWORKS = {
 
 
 
-  'AU-2026-18': {
+  'AU-2026-018': {
     title: 'Beauty of Colours',
     year: '2026',
     medium: 'Acrylic on canvas',
