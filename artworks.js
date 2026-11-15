@@ -38,9 +38,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'Inspired by the Garden of Eden. A little girl who loved to sing found a safe place in the garden, where she could simply be herself.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794737789/IMG_9189_jhliqz.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794737789/IMG_9187_qsrzvi.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794738015/IMG_9190_br7kd6.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794754150/IMG_9189_mclcld.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794754146/IMG_9187_yrzamq.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794754153/IMG_9190_htpfdn.jpg', 'Sign']
     ]
   },
 
@@ -55,9 +55,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'I joined the choir as a child, before I really knew God. That choir became the start of my journey with Him, a journey that is still unfolding.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794738389/IMG_9192_z5pryp.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794738385/IMG_9191_lfoldj.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794738392/IMG_9194_ot8xrt.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794754925/IMG_9192_gvmm9h.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794754923/IMG_9191_xngtg1.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794754932/IMG_9194_qqsh7g.jpg', 'Sign']
     ]
   },
 
@@ -72,8 +72,8 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'In school you meet new friends, and it feels like an amazing journey. What we don’t realise is that each person is headed to a different destination, and sometimes we compare ourselves with others when every journey is its own. That is why each friend wears a different colour on their head. Life speaks in colours, and I used them to tell their journeys apart.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794738647/IMG_9195_blukkk.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794738659/IMG_9197_zhd7er.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794755691/IMG_9195_hcngjn.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794755694/IMG_9197_wdnoco.jpg', 'Sign']
     ]
   },
 
@@ -88,8 +88,8 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'There was a time when a friendship felt like it would never fade. Then those friends become shadows. No calls, no messages, no word at all, and life suddenly becomes lonely.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794739096/IMG_9198_yyijsg.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794739098/IMG_9199_dvr4qi.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756059/IMG_9198_jcu0gs.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756062/IMG_9199_hjwmz3.jpg', 'Sign']
     ]
   },
 
@@ -104,9 +104,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'Inspired by how life turned out, from a beautiful childhood to seeing no one. Look closely and you will see a person ready and prepared to step out, but delays turned the story the other way around.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794739442/IMG_9200_ytr8d0.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794739447/IMG_9203_czbpne.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794739444/IMG_9202_ijhvmw.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756466/IMG_9200_o6xtwz.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756471/IMG_9203_gzbuql.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756469/IMG_9202_rv2sce.jpg', 'Sign']
     ]
   },
 
@@ -121,8 +121,8 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'A girl who became tired and simply gave up. She looks at everything around her but stares at nothing.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794739721/IMG_9206_x2u5mj.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794739725/IMG_9207_p48mv3.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756684/IMG_9206_lv3rb0.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756690/IMG_9207_ij2p88.jpg', 'Sign']
     ]
   },
 
@@ -137,9 +137,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'I decided to wait, and to praise God while I wait, no matter the circumstances. Ime means patience, and it is my brother’s name. God opened my eyes to see that it was more than a name. It was a season of waiting.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740323/IMG_9209_rwahjf.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740331/IMG_9211_rfoepf.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740340/IMG_9210_ofqbtr.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757003/IMG_9209_zl2xa8.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756998/IMG_9211_nkf8d4.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794756996/IMG_9210_nizsn6.jpg', 'Sign']
     ]
   },
 
@@ -154,9 +154,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'Inspired by life’s long wait, and the decision that complete surrender to God is the best option.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740630/IMG_9213_mmodq8.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740641/IMG_9215_ovrqh1.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740638/IMG_9214_avf3jq.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757432/IMG_9213_krxosd.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757438/IMG_9215_zig07d.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757434/IMG_9214_ypwpaj.jpg', 'Sign']
     ]
   },
 
@@ -171,9 +171,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'After a long wait, calm becomes a choice. This piece watches the world quietly, resting in God through it all.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740816/IMG_9216_v97vbf.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740821/IMG_9218_wmddll.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794740823/IMG_9217_szjp3e.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757606/IMG_9216_awhhgg.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757614/IMG_9218_ajtqmm.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757609/IMG_9217_k2h8z2.jpg', 'Sign']
     ]
   },
 
@@ -188,9 +188,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'A smile that speaks peace without a word. It comes from a heart that has waited long and surrendered fully to God.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794741181/IMG_9219_xv2ipw.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794741180/IMG_9221_bvnt5f.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794741179/IMG_9220_iziemr.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757756/IMG_9219_l9xkoq.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757764/IMG_9221_ufm21m.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794757760/IMG_9220_mhtcf2.jpg', 'Sign']
     ]
   },
 
@@ -205,9 +205,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'The beginning of a life journey: a single man and a single woman meet, and two paths become one.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794741514/IMG_9223_qjgvrw.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794741512/IMG_9225_doujxg.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794741511/IMG_9224_iwcyef.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758203/IMG_9223_evuk7n.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758212/IMG_9225_bgpx4t.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758205/IMG_9224_ke33ey.jpg', 'Sign']
     ]
   },
 
@@ -222,9 +222,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'The happy ending, made real. Where the first piece shows two people meeting, this one shows what grew from it, including their child.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742043/IMG_9226_g41hdc.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742088/IMG_9229_zifu0o.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742091/IMG_9228_mdaucd.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758405/IMG_9226_lpfiry.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758414/IMG_9229_zjbyev.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758408/IMG_9228_v95nlz.jpg', 'Sign']
     ]
   },
 
@@ -239,9 +239,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'A tribute to the art lover: the silent observation, the careful mindset, and the tilt of the head as they try to understand what the painter was thinking.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742406/IMG_9230_wo3aof.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742411/IMG_9232_e1zl1b.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742412/IMG_9231_lwiufk.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758654/IMG_9230_v45ckc.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758663/IMG_9232_qhlh4n.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758658/IMG_9231_whebaa.jpg', 'Sign']
     ]
   },
 
@@ -256,9 +256,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'Inspired by the theme of the Oasis International Conference 2026. The title comes from the first words God spoke over creation, a reminder that where He speaks, light follows.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742702/IMG_9237_quyf4h.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742708/IMG_9239_kay4pg.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794742705/IMG_9238_zqypvw.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758883/IMG_9237_zdl66t.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758894/IMG_9239_kuretq.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794758889/IMG_9238_vqamvm.jpg', 'Sign']
     ]
   },
 
@@ -273,9 +273,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'A companion to the first piece, also inspired by the theme of the Oasis International Conference 2026. Together they carry one message: let there be light.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743043/IMG_9234_qrglre.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743048/IMG_9236_hoeaxi.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743067/IMG_9235_xrxiz9.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759219/IMG_9234_do4isl.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759225/IMG_9236_hrterl.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759224/IMG_9235_yetjzu.jpg', 'Sign']
     ]
   },
 
@@ -290,9 +290,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'A tribute to God’s creation, painted in gratitude for the world He made.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743315/IMG_9242_t0d24q.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743323/IMG_9245_seibn8.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743319/IMG_9244_nfy5de.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759453/IMG_9242_ldsoc7.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759463/IMG_9245_q6kgtz.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759460/IMG_9244_of54wn.jpg', 'Sign']
     ]
   },
 
@@ -307,9 +307,9 @@ const ARTWORKS = {
     sold: '',                       // e.g. '2026-11-15'
     summary: 'Every colour on my palette, brought together in a single work. It is the theme of this exhibition in its purest form: life is never one shade.',
     images: [
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743693/IMG_9248_tb2lbw.heic', 'Front'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743698/IMG_9250_bfo7m2.heic', 'Back'],
-      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794743695/IMG_9249_qqpvkc.heic', 'Sign']
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759674/IMG_9248_txe9of.jpg', 'Front'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759683/IMG_9250_wttuee.jpg', 'Back'],
+      ['https://res.cloudinary.com/dzneyqbo9/image/upload/v1794759678/IMG_9249_pyo9vo.jpg', 'Sign']
     ]
   },
   // , 'AU-2026-002': { ...copy the block above and change the details... }
